@@ -1,0 +1,50 @@
+
+<html>
+<head>
+	<title>Bulp series</title>
+</head>
+  <body style="background-color: skyblue;">
+	<h1 style="color: #4B205E;"><center>BULP SERIES</center></h1>
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px"><br><br>
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+	<img src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg" height="180px" width="180px">
+
+	<button onclick="show()" style="position: absolute; margin-bottom: 30%; margin-left: 8rem; font-size: 1.2rem; background-color: #CFB4DC;" >ON / OFF</button>
+
+    
+    <script>
+	
+	function show()
+	{
+			var t=document.getElementsByTagName('img').length;
+			let c=0;
+			for(var i=0;i<t*2;i++)
+			{
+				if(i>=t)
+				{
+					setTimeout(function(){
+					document.getElementsByTagName('img')[c-1].src="https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg";
+					c--;
+				},1000*(i+1));
+				}
+				else
+				{
+					setTimeout(function(){
+					document.getElementsByTagName('img')[c].src="https://thumbs.dreamstime.com/b/vector-light-bulb-white-file-eps-format-34983265.jpg";
+					c++;
+				},1000*(i+1));
+				}
+				
+			}
+
+	}
+    </script> 
+  </body>
+</html>
